@@ -3,5 +3,5 @@ navbar:
   title: "My Website"
   left:
     - text: "Home"
-      href: dashboard.html
+      href: index.html
 output_dir: docs
