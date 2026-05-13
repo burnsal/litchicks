@@ -3,6 +3,7 @@ title: "The Lit Chicks"
 output: 
   flexdashboard::flex_dashboard:
     theme: cosmo
+    "font-size-base": "1.3rem"
 
 ---
 
@@ -10,6 +11,7 @@ output:
 library(flexdashboard)
 # Install thematic and un-comment for themed static plots (i.e., ggplot2)
 # thematic::thematic_rmd()
+
 ```
 
 
@@ -33,13 +35,15 @@ Welcome to the Lit Chicks. We are a welcoming, stress-free space for great peopl
    
 Upcoming Reads
 ===============   
-   
-**June 2026 : Slippery Creatures, by K.J. Charles.** 
+
+```{r, out.width='15%', out.extra='style="float:left; padding:10px;"'}
+knitr::include_graphics('images/slipperycr.png')
+```   
+**June 2026 : Slippery Creatures, by K.J. Charles.**
+  
 [Read](https://www.hoopladigital.com/ebook/slippery-creatures-kj-charles/13364521) or [listen](https://www.hoopladigital.com/audiobook/slippery-creatures-kj-charles/13341037) for free on Hoopla.
 
-```{r, out.width='25%', fig.align='center', fig.cap='...'}
-knitr::include_graphics('images/slipperycr.jpg')
-```
+
 *Synopsis:* Will Darling came back from the Great War with a few scars, a lot of medals, and no idea what to do next. Inheriting his uncle’s chaotic second-hand bookshop is a blessing...until strange visitors start making threats. First a criminal gang, then the War Office, both telling Will to give them the information they want, or else.
 
 Will has no idea what that information is, and nobody to turn to, until Kim Secretan—charming, cultured, oddly attractive—steps in to offer help. As Kim and Will try to find answers and outrun trouble, mutual desire grows along with the danger.
@@ -49,14 +53,19 @@ And then Will discovers the truth about Kim. His identity, his past, his real in
 But Will possesses knowledge that could cost thousands of lives. Enemies are closing in on him from all sides—and Kim is the only man who can help.  
 
 *Trigger Notes* - this book does contain explicit sex, but stands on its own if you want to skip the spicy scenes.
-
+  
+  
+  
+      
 ---
-
+  
+  
 **July 2026 : Portrait of a Thief, by Grace Li.** 
+  
 [Available in print](https://teton.wyldcatalog.org//Record/a2469407?searchId=64363635&recordIndex=&page=1&searchSource=local) locally or through inter-library loan at TCL.
 
 
-```{r, out.width='25%', fig.align='center', fig.cap='...'}
+```{r, out.width='15%', out.extra='style="float:right; padding:10px;"'}
 knitr::include_graphics('images/portrait.png')
 ```
 *Synopsis:*
